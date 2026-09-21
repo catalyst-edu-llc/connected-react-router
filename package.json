@@ -1,20 +1,20 @@
 {
-  "name": "connected-react-router",
-  "version": "6.9.3",
+  "name": "@catalyst-edu-llc/connected-react-router",
+  "version": "6.9.4",
   "description": "A Redux binding for React Router v4 and v5",
   "main": "lib/index.js",
-  "module": "esm/index.js",
   "types": "./index.d.ts",
   "sideEffects": false,
   "author": "Supasate Choochaisri",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "*.md",
     "*.js",
     "*.ts",
-    "esm",
-    "lib",
-    "umd"
+    "lib"
   ],
   "scripts": {
     "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir esm",
@@ -84,9 +84,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/supasate/connected-react-router.git"
+    "url": "https://github.com/catalyst-edu-llc/connected-react-router.git"
   },
   "bugs": {
-    "url": "https://github.com/supasate/connected-react-router/issues"
+    "url": "https://github.com/catalyst-edu-llc/connected-react-router/issues"
   }
 }
